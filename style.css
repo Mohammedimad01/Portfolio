@@ -80,6 +80,9 @@ h2 {
   margin-bottom: 20px;
   text-align: center;
 }
+.about h2 {
+  white-space: nowrap;
+}
 .skill-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -117,6 +120,11 @@ h2 {
 .project-card h3 {
   margin-bottom: 10px;
   font-size: 1.2rem;
+}
+.project-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #ccc;
 }
 form {
   max-width: 600px;
